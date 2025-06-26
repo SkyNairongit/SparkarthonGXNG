@@ -1,0 +1,706 @@
+{
+  "tomato": [
+    {
+      "name": "Tomato 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Tomato 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Tomato Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "potato": [
+    {
+      "name": "Potato 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Potato 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Potato Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "onion": [
+    {
+      "name": "Onion 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Onion 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Onion Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "coriander": [
+    {
+      "name": "Coriander 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    },
+    {
+      "name": "Coriander 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    },
+    {
+      "name": "Coriander Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    }
+  ],
+  "mint": [
+    {
+      "name": "Mint 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    },
+    {
+      "name": "Mint 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    },
+    {
+      "name": "Mint Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "herb"
+      ]
+    }
+  ],
+  "carrot": [
+    {
+      "name": "Carrot 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Carrot 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Carrot Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "cabbage": [
+    {
+      "name": "Cabbage 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cabbage 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cabbage Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "cauliflower": [
+    {
+      "name": "Cauliflower 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cauliflower 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cauliflower Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "green chili": [
+    {
+      "name": "Green Chili 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Green Chili 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Green Chili Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "ginger": [
+    {
+      "name": "Ginger 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Ginger 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Ginger Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "garlic": [
+    {
+      "name": "Garlic 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Garlic 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Garlic Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "lemon": [
+    {
+      "name": "Lemon 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "name": "Lemon 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "fruit"
+      ]
+    },
+    {
+      "name": "Lemon Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "fruit"
+      ]
+    }
+  ],
+  "beans": [
+    {
+      "name": "Beans 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Beans 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Beans Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "beetroot": [
+    {
+      "name": "Beetroot 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Beetroot 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Beetroot Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "spinach": [
+    {
+      "name": "Spinach 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "leafy vegetable"
+      ]
+    },
+    {
+      "name": "Spinach 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "leafy vegetable"
+      ]
+    },
+    {
+      "name": "Spinach Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "leafy vegetable"
+      ]
+    }
+  ],
+  "brinjal": [
+    {
+      "name": "Brinjal 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Brinjal 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Brinjal Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "bottle gourd": [
+    {
+      "name": "Bottle Gourd 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Bottle Gourd 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Bottle Gourd Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "ridge gourd": [
+    {
+      "name": "Ridge Gourd 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Ridge Gourd 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Ridge Gourd Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "okra": [
+    {
+      "name": "Okra 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Okra 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Okra Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "peas": [
+    {
+      "name": "Peas 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Peas 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Peas Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "cucumber": [
+    {
+      "name": "Cucumber 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cucumber 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Cucumber Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ],
+  "pumpkin": [
+    {
+      "name": "Pumpkin 1",
+      "brand": "Brand A",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Pumpkin 2",
+      "brand": "Brand B",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    },
+    {
+      "name": "Pumpkin Local",
+      "brand": "Local Produce",
+      "size": "500g",
+      "price": "₹30",
+      "aisle": "F1",
+      "tags": [
+        "vegetable"
+      ]
+    }
+  ]
+}
