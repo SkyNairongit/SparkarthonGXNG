@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Assistant - Your Shopping Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffeef8 0%, #f0e6ff 50%, #e6f3ff 100%);
+            min-height: 100vh;
+            color: #2d2d2d;
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff9a9e, #a8e6cf, #87ceeb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            background: linear-gradient(45deg, #ffe0e6, #e0f0ff);
+            color: #1a1a1a;
+            border-color: #ffb3ba;
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .page {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #2d2d2d;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #2d2d2d;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .input-group {
+            margin: 1.5rem 0;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.95);
+            color: #2d2d2d;
+            font-weight: 500;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #ffb3ba;
+            box-shadow: 0 0 0 3px rgba(255, 179, 186, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #ff9aa2, #b3d9ff);
+            color: #1a1a1a;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: none;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, #ff9a9e, #87ceeb);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .results {
+            margin-top: 2rem;
+        }
+
+        .ingredient-match {
+            background: linear-gradient(45deg, rgba(255, 179, 186, 0.1), rgba(186, 225, 255, 0.1));
+            border-left: 4px solid #ffb3ba;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .no-match {
+            background: linear-gradient(45deg, rgba(255, 200, 200, 0.1), rgba(255, 220, 220, 0.1));
+            border-left: 4px solid #ffaaaa;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .item-details {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 179, 186, 0.3);
+            color: #2d2d2d;
+            font-weight: 500;
+        }
+
+        .timer-display {
+            text-align: center;
+            font-size: 4rem;
+            font-weight: bold;
+            color: #2d2d2d;
+            margin: 2rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(45deg, #ff9aa2, #b3d9ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .timer-controls {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .queue-status {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 15px;
+            background: linear-gradient(45deg, rgba(255, 179, 186, 0.2), rgba(186, 225, 255, 0.2));
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #ffb3ba;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .floating-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .floating-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(45deg, rgba(255, 179, 186, 0.1), rgba(186, 225, 255, 0.1));
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-success { background-color: #a8e6cf; }
+        .status-warning { background-color: #ffd93d; }
+        .status-error { background-color: #ffb3ba; }
+    </style>
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-circle" style="width: 60px; height: 60px; top: 10%; left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-circle" style="width: 80px; height: 80px; top: 20%; right: 15%; animation-delay: 2s;"></div>
+        <div class="floating-circle" style="width: 40px; height: 40px; bottom: 20%; left: 20%; animation-delay: 4s;"></div>
+        <div class="floating-circle" style="width: 100px; height: 100px; bottom: 10%; right: 10%; animation-delay: 1s;"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🛍️ Store Assistant</div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" onclick="showPage('guide')">Shopping Guide</a>
+                <a href="#" class="nav-link" onclick="showPage('timer')">Queue Timer</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Shopping Guide Page -->
+        <div id="guide" class="page active">
+            <div class="hero">
+                <h1>🧭 Your Personal In-Store Guide</h1>
+                <p>Find ingredients for any dish with smart inventory matching</p>
+            </div>
+
+            <div class="card">
+                <h2>🍽️ What would you like to cook today?</h2>
+                <div class="input-group">
+                    <label for="dishInput">Enter dish name:</label>
+                    <input type="text" id="dishInput" placeholder="e.g., Pasta Carbonara, Chicken Curry, Chocolate Cake...">
+                </div>
+                <button class="btn" onclick="findIngredients()">
+                    Find Ingredients <span id="loadingSpinner" class="loading" style="display: none;"></span>
+                </button>
+            </div>
+
+            <div id="results" class="results"></div>
+        </div>
+
+        <!-- Queue Timer Page -->
+        <div id="timer" class="page">
+            <div class="hero">
+                <h1>⏱️ Queue Timer</h1>
+                <p>Track your waiting time and stay organized</p>
+            </div>
+
+            <div class="card">
+                <div class="timer-display" id="timerDisplay">00:00:00</div>
+                <div class="queue-status" id="queueStatus">
+                    <span class="status-indicator status-warning"></span>
+                    Ready to start timing
+                </div>
+                
+                <div class="timer-controls">
+                    <button class="btn" onclick="startTimer()">▶️ Start</button>
+                    <button class="btn" onclick="pauseTimer()">⏸️ Pause</button>
+                    <button class="btn" onclick="resetTimer()">🔄 Reset</button>
+                </div>
+
+                <div class="input-group">
+                    <label for="customTime">Set custom time (minutes):</label>
+                    <input type="number" id="customTime" placeholder="Enter minutes..." min="1">
+                    <button class="btn" onclick="setCustomTimer()" style="margin-top: 1rem;">Set Timer</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📊 Queue Statistics</h3>
+                <div id="queueStats">
+                    <p><strong>Average wait time:</strong> <span id="avgWait">--</span></p>
+                    <p><strong>Total sessions:</strong> <span id="totalSessions">0</span></p>
+                    <p><strong>Longest wait:</strong> <span id="longestWait">--</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let timerInterval;
+        let seconds = 0;
+        let isRunning = false;
+        let queueStats = {
+            totalSessions: 0,
+            totalTime: 0,
+            longestWait: 0
+        };
+        
+        // Inventory data will be loaded from inventory.json
+        let inventoryData = {};
+
+        // Fetch inventory.json on page load
+        fetch('inventory.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to load inventory.json');
+                return response.json();
+            })
+            .then(data => {
+                inventoryData = data;
+            })
+            .catch(error => {
+                alert('Error loading inventory: ' + error.message);
+            });
+
+        // Page navigation
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            document.getElementById(pageId).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Shopping Guide Functions (simulating your backend's get_ingredients function)
+        // getIngredients function removed as backend is now used.
+
+        // This function mimics your backend's display_matches logic exactly
+        function findMatches(ingredient, inventory) {
+            const matches = [];
+            // Your backend logic: matches = [key for key in inventory if ingredient in key or key in ingredient]
+            for (const [key, items] of Object.entries(inventory)) {
+                if (ingredient.includes(key) || key.includes(ingredient)) {
+                    matches.push({key: key, items: items});
+                }
+            }
+            return matches;
+        }
+
+        async function findIngredients() {
+            const dishInput = document.getElementById('dishInput');
+            const resultsDiv = document.getElementById('results');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            
+            if (!dishInput.value.trim()) {
+                alert('Please enter a dish name!');
+                return;
+            }
+
+            loadingSpinner.style.display = 'inline-block';
+            resultsDiv.innerHTML = '';
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/find_ingredients', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ dish: dishInput.value })
+                });
+                const data = await response.json();
+
+                let resultsHTML = `<div class="card"><h3>🛒 Ingredients for "${dishInput.value}"</h3>`;
+                let foundAny = false;
+
+                data.matches.forEach(match => {
+                    if (match.matches.length > 0) {
+                        foundAny = true;
+                        resultsHTML += `<div class="ingredient-match">
+                            <h4>🛒 Matches for '${match.ingredient}':</h4>`;
+                        match.matches.forEach(item => {
+                            resultsHTML += `<div class="item-details">
+                                <strong>- Name: ${item.name}</strong><br>
+                                &nbsp;&nbsp;Brand: ${item.brand}<br>
+                                &nbsp;&nbsp;Size: ${item.size}<br>
+                                &nbsp;&nbsp;Price: ${item.price}<br>
+                                &nbsp;&nbsp;Aisle: ${item.aisle}<br>
+                                &nbsp;&nbsp;Tags: ${item.tags.join(', ')}
+                            </div>`;
+                        });
+                        resultsHTML += '</div>';
+                    } else {
+                        resultsHTML += `<div class="no-match">
+                            <h4>❌ No match found for: ${match.ingredient}</h4>
+                        </div>`;
+                    }
+                });
+
+                if (!foundAny) {
+                    resultsHTML += '<div class="no-match"><h4>No ingredients from the dish were found in the inventory.</h4></div>';
+                }
+
+                resultsHTML += '</div>';
+                resultsDiv.innerHTML = resultsHTML;
+
+            } catch (error) {
+                resultsDiv.innerHTML = '<div class="card"><h3>❌ Error finding ingredients. Please try again.</h3></div>';
+            } finally {
+                loadingSpinner.style.display = 'none';
+            }
+        }
+
+        // Timer Functions
+        function formatTime(totalSeconds) {
+            const hours = Math.floor(totalSeconds / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const secs = totalSeconds % 60;
+            return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        function updateDisplay() {
+            document.getElementById('timerDisplay').textContent = formatTime(seconds);
+        }
+
+        function updateStatus(message, type = 'warning') {
+            const statusElement = document.getElementById('queueStatus');
+            const indicator = statusElement.querySelector('.status-indicator');
+            
+            indicator.className = `status-indicator status-${type}`;
+            statusElement.innerHTML = `<span class="status-indicator status-${type}"></span>${message}`;
+        }
+
+        function startTimer() {
+            if (!isRunning) {
+                isRunning = true;
+                timerInterval = setInterval(() => {
+                    seconds++;
+                    updateDisplay();
+                }, 1000);
+                updateStatus('Timer running...', 'success');
+            }
+        }
+
+        function pauseTimer() {
+            if (isRunning) {
+                isRunning = false;
+                clearInterval(timerInterval);
+                updateStatus('Timer paused', 'warning');
+            }
+        }
+
+        function resetTimer() {
+            if (seconds > 0) {
+                // Update statistics
+                queueStats.totalSessions++;
+                queueStats.totalTime += seconds;
+                if (seconds > queueStats.longestWait) {
+                    queueStats.longestWait = seconds;
+                }
+                updateQueueStats();
+            }
+            
+            isRunning = false;
+            clearInterval(timerInterval);
+            seconds = 0;
+            updateDisplay();
+            updateStatus('Ready to start timing', 'warning');
+        }
+
+        function setCustomTimer() {
+            const customTime = document.getElementById('customTime').value;
+            if (customTime && customTime > 0) {
+                seconds = parseInt(customTime) * 60;
+                updateDisplay();
+                updateStatus(`Timer set to ${customTime} minutes`, 'success');
+            }
+        }
+
+        function updateQueueStats() {
+            const avgWait = queueStats.totalSessions > 0 ? 
+                Math.round(queueStats.totalTime / queueStats.totalSessions) : 0;
+            
+            document.getElementById('avgWait').textContent = formatTime(avgWait);
+            document.getElementById('totalSessions').textContent = queueStats.totalSessions;
+            document.getElementById('longestWait').textContent = formatTime(queueStats.longestWait);
+        }
+
+        // Enter key support for dish input
+        document.getElementById('dishInput').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                findIngredients();
+            }
+        });
+
+        // Initialize
+        updateDisplay();
+        updateQueueStats();
+    </script>
+</body>
+</html>
