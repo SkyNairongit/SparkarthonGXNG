@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Queue Time Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Queue Time Estimator</h1>
+    <div id="role-selection">
+        <button onclick="showCustomer()">Customer</button>
+        <button onclick="showEmployee()">Employee</button>
+    </div>
+    <div id="customer-section" style="display:none;">
+        <h2>Customer Portal</h2>
+        <button onclick="showCustomerQueue()">Check Estimated Times</button>
+        <button onclick="showJoinCounter()">Join Counter Queue</button>
+        <div id="customer-queue" style="display:none;">
+            <h3>Estimated Checkout Times</h3>
+            <ul id="counter-times"></ul>
+            <button onclick="hideCustomerQueue()">Back</button>
+        </div>
+        <div id="join-counter" style="display:none;">
+            <h3>Join a Counter</h3>
+            <form onsubmit="joinCounter(event)">
+                <label>Counter Number: <input type="number" id="counter-number" required></label><br>
+                <label>Number of Products: <input type="number" id="num-products" required></label><br>
+                <button type="submit">Join Queue</button>
+            </form>
+            <div id="your-estimate"></div>
+            <button onclick="hideJoinCounter()">Back</button>
+        </div>
+        <button onclick="backToRole()">Back to Role Selection</button>
+    </div>
+    <div id="employee-section" style="display:none;">
+        <h2>Employee Portal</h2>
+        <form onsubmit="showEmployeeQueue(event)">
+            <label>Counter Number: <input type="number" id="emp-counter-number" required></label>
+            <button type="submit">View Queue</button>
+        </form>
+        <div id="employee-queue" style="display:none;">
+            <h3>Queue at Counter <span id="emp-counter-label"></span></h3>
+            <ul id="emp-queue-list"></ul>
+            <button onclick="hideEmployeeQueue()">Back</button>
+        </div>
+        <button onclick="backToRole()">Back to Role Selection</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
