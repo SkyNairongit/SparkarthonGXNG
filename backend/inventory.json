@@ -1,0 +1,747 @@
+{
+  "tomato": [
+    { "name": "Farm Fresh Tomatoes", "brand": "Fresh Harvest", "size": "1kg", "price": "₹30", "aisle": "F1", "tags": ["vegetable"] },
+    { "name": "Organic Red Tomatoes", "brand": "AgroKart", "size": "1kg", "price": "₹40", "aisle": "F1", "tags": ["vegetable"] },
+    { "name": "Local Tomatoes", "brand": "Local Produce", "size": "1kg", "price": "₹25", "aisle": "F1", "tags": ["vegetable"] }
+  ],
+  "potato": [
+    { "name": "Washed Potatoes", "brand": "AgroKart", "size": "1kg", "price": "₹28", "aisle": "F2", "tags": ["vegetable"] },
+    { "name": "Organic Potatoes", "brand": "GreenFresh", "size": "1kg", "price": "₹35", "aisle": "F2", "tags": ["vegetable"] },
+    { "name": "Local Potatoes", "brand": "Local Produce", "size": "1kg", "price": "₹22", "aisle": "F2", "tags": ["vegetable"] }
+  ],
+  "onion": [
+    { "name": "Big Red Onions", "brand": "Fresh Harvest", "size": "1kg", "price": "₹35", "aisle": "F1", "tags": ["vegetable"] },
+    { "name": "Farm Pick Onions", "brand": "AgroKart", "size": "1kg", "price": "₹38", "aisle": "F1", "tags": ["vegetable"] },
+    { "name": "Local Onions", "brand": "Local Produce", "size": "1kg", "price": "₹30", "aisle": "F1", "tags": ["vegetable"] }
+  ],
+  "coriander": [
+    { "name": "Coriander Leaves Pack", "brand": "LeafyGreen", "size": "100g", "price": "₹20", "aisle": "F3", "tags": ["herb"] },
+    { "name": "Premium Coriander", "brand": "AgroKart", "size": "100g", "price": "₹25", "aisle": "F3", "tags": ["herb"] },
+    { "name": "Local Coriander", "brand": "Local Produce", "size": "100g", "price": "₹15", "aisle": "F3", "tags": ["herb"] }
+  ],
+  "mint": [
+    { "name": "Mint Leaves Pack", "brand": "LeafyFresh", "size": "50g", "price": "₹18", "aisle": "F3", "tags": ["herb"] },
+    { "name": "CoolMint Bunch", "brand": "Green Basket", "size": "50g", "price": "₹22", "aisle": "F3", "tags": ["herb"] },
+    { "name": "Local Mint", "brand": "Local Produce", "size": "50g", "price": "₹12", "aisle": "F3", "tags": ["herb"] }
+  ],
+  "carrot": [
+    { "name": "Juicy Carrots", "brand": "Fresh Harvest", "size": "1kg", "price": "₹32", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Ooty Carrots", "brand": "MountainFresh", "size": "1kg", "price": "₹40", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Local Carrots", "brand": "Local Produce", "size": "1kg", "price": "₹28", "aisle": "F4", "tags": ["vegetable"] }
+  ],
+  "cabbage": [
+    { "name": "Green Cabbage", "brand": "AgroKart", "size": "1pc ~700g", "price": "₹25", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Cleaned Cabbage", "brand": "FarmEase", "size": "1pc ~800g", "price": "₹30", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Cabbage", "brand": "Local Produce", "size": "1pc", "price": "₹20", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "cauliflower": [
+    { "name": "Snow White Cauliflower", "brand": "Green Basket", "size": "1pc ~900g", "price": "₹40", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Premium Cauliflower", "brand": "Fresh Harvest", "size": "1pc", "price": "₹45", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Cauliflower", "brand": "Local Produce", "size": "1pc", "price": "₹35", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "green chili": [
+    { "name": "Spicy Green Chillies", "brand": "AgroKart", "size": "100g", "price": "₹10", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Mild Green Chillies", "brand": "ChiliCart", "size": "100g", "price": "₹12", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Local Chillies", "brand": "Local Produce", "size": "100g", "price": "₹8", "aisle": "F6", "tags": ["vegetable"] }
+  ],
+  "ginger": [
+    { "name": "Cleaned Ginger", "brand": "Fresh Harvest", "size": "100g", "price": "₹15", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Organic Ginger", "brand": "Nature Farm", "size": "100g", "price": "₹20", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Local Ginger", "brand": "Local Produce", "size": "100g", "price": "₹12", "aisle": "F6", "tags": ["vegetable"] }
+  ],
+  "garlic": [
+    { "name": "Peeled Garlic Pack", "brand": "FarmEase", "size": "100g", "price": "₹18", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Organic Garlic", "brand": "Nature Farm", "size": "100g", "price": "₹22", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Local Garlic", "brand": "Local Produce", "size": "100g", "price": "₹15", "aisle": "F6", "tags": ["vegetable"] }
+  ],
+  "lemon": [
+    { "name": "Big Juicy Lemons", "brand": "Fresh Harvest", "size": "250g ~3 pcs", "price": "₹20", "aisle": "F7", "tags": ["fruit"] },
+    { "name": "Small Lemons", "brand": "CitrusFresh", "size": "200g", "price": "₹18", "aisle": "F7", "tags": ["fruit"] },
+    { "name": "Local Lemons", "brand": "Local Produce", "size": "3 pcs", "price": "₹15", "aisle": "F7", "tags": ["fruit"] }
+  ],
+  "beans": [
+    { "name": "French Beans", "brand": "Green Basket", "size": "250g", "price": "₹30", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Tender Beans", "brand": "AgroKart", "size": "250g", "price": "₹28", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Local Beans", "brand": "Local Produce", "size": "250g", "price": "₹25", "aisle": "F4", "tags": ["vegetable"] }
+  ],
+  "beetroot": [
+    { "name": "Clean Beetroot", "brand": "RootyFresh", "size": "500g", "price": "₹22", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Organic Beetroot", "brand": "Nature Farm", "size": "500g", "price": "₹28", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Local Beetroot", "brand": "Local Produce", "size": "500g", "price": "₹20", "aisle": "F4", "tags": ["vegetable"] }
+  ],
+  "spinach": [
+    { "name": "Washed Spinach Leaves", "brand": "LeafyFresh", "size": "250g", "price": "₹22", "aisle": "F3", "tags": ["leafy vegetable"] },
+    { "name": "Organic Spinach", "brand": "AgroKart", "size": "250g", "price": "₹28", "aisle": "F3", "tags": ["leafy vegetable"] },
+    { "name": "Local Spinach", "brand": "Local Produce", "size": "250g", "price": "₹18", "aisle": "F3", "tags": ["leafy vegetable"] }
+  ],
+  "brinjal": [
+    { "name": "Big Purple Brinjal", "brand": "AgroKart", "size": "500g", "price": "₹22", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Organic Brinjal", "brand": "Nature Farm", "size": "500g", "price": "₹30", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Brinjal", "brand": "Local Produce", "size": "500g", "price": "₹18", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "bottle gourd": [
+    { "name": "Bottle Gourd", "brand": "AgroKart", "size": "1pc", "price": "₹25", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Fresh Lauki", "brand": "Fresh Harvest", "size": "1pc", "price": "₹28", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Lauki", "brand": "Local Produce", "size": "1pc", "price": "₹20", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "ridge gourd": [
+    { "name": "Ridge Gourd", "brand": "Green Basket", "size": "500g", "price": "₹30", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Organic Ridge Gourd", "brand": "Nature Farm", "size": "500g", "price": "₹35", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Ridge Gourd", "brand": "Local Produce", "size": "500g", "price": "₹25", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "okra": [
+    { "name": "Lady Finger", "brand": "AgroKart", "size": "250g", "price": "₹18", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Organic Okra", "brand": "Nature Farm", "size": "250g", "price": "₹24", "aisle": "F5", "tags": ["vegetable"] },
+    { "name": "Local Okra", "brand": "Local Produce", "size": "250g", "price": "₹15", "aisle": "F5", "tags": ["vegetable"] }
+  ],
+  "peas": [
+    { "name": "Frozen Green Peas", "brand": "Safal", "size": "500g", "price": "₹60", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Fresh Peas", "brand": "Green Basket", "size": "500g", "price": "₹45", "aisle": "F6", "tags": ["vegetable"] },
+    { "name": "Local Peas", "brand": "Local Produce", "size": "500g", "price": "₹35", "aisle": "F6", "tags": ["vegetable"] }
+  ],
+  "cucumber": [
+    { "name": "Salad Cucumber", "brand": "FarmEase", "size": "500g", "price": "₹18", "aisle": "F3", "tags": ["vegetable"] },
+    { "name": "English Cucumber", "brand": "Nature Farm", "size": "500g", "price": "₹24", "aisle": "F3", "tags": ["vegetable"] },
+    { "name": "Local Cucumber", "brand": "Local Produce", "size": "500g", "price": "₹15", "aisle": "F3", "tags": ["vegetable"] }
+  ],
+  "pumpkin": [
+    { "name": "Red Pumpkin", "brand": "Green Basket", "size": "1kg", "price": "₹22", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Sliced Pumpkin", "brand": "FarmEase", "size": "1kg", "price": "₹28", "aisle": "F4", "tags": ["vegetable"] },
+    { "name": "Local Pumpkin", "brand": "Local Produce", "size": "1kg", "price": "₹18", "aisle": "F4", "tags": ["vegetable"] }
+  ],
+  "apple": [
+    { "name": "Kinnaur Apple", "brand": "Fresh Harvest", "size": "1kg", "price": "₹150", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Washington Apple", "brand": "FruitEx", "size": "1kg", "price": "₹180", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Apple", "brand": "Local Produce", "size": "1kg", "price": "₹120", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "banana": [
+    { "name": "Yelakki Banana", "brand": "BananaWorld", "size": "500g", "price": "₹25", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Robusta Banana", "brand": "FruitEx", "size": "500g", "price": "₹30", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Banana", "brand": "Local Produce", "size": "500g", "price": "₹20", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "orange": [
+    { "name": "Nagpur Orange", "brand": "FruitEx", "size": "1kg", "price": "₹70", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Imported Orange", "brand": "CitrusWorld", "size": "1kg", "price": "₹90", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Orange", "brand": "Local Produce", "size": "1kg", "price": "₹60", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "grapes": [
+    { "name": "Green Seedless Grapes", "brand": "Fresh Harvest", "size": "500g", "price": "₹55", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Black Grapes", "brand": "FruitEx", "size": "500g", "price": "₹60", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Grapes", "brand": "Local Produce", "size": "500g", "price": "₹45", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "mango": [
+    { "name": "Alphonso Mango", "brand": "MangoKing", "size": "1kg", "price": "₹200", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Badami Mango", "brand": "Fresh Harvest", "size": "1kg", "price": "₹160", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Mango", "brand": "Local Produce", "size": "1kg", "price": "₹130", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "pineapple": [
+    { "name": "Sliced Pineapple", "brand": "Fruit Cuts", "size": "500g", "price": "₹60", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Whole Pineapple", "brand": "Tropico", "size": "1pc", "price": "₹80", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Pineapple", "brand": "Local Produce", "size": "1pc", "price": "₹65", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "watermelon": [
+    { "name": "Seedless Watermelon", "brand": "FruitEx", "size": "2kg", "price": "₹70", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Mini Watermelon", "brand": "Fresh Harvest", "size": "1.5kg", "price": "₹60", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Watermelon", "brand": "Local Produce", "size": "2kg", "price": "₹50", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "guava": [
+    { "name": "Pink Guava", "brand": "FruitEx", "size": "1kg", "price": "₹45", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "White Guava", "brand": "Green Basket", "size": "1kg", "price": "₹50", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Guava", "brand": "Local Produce", "size": "1kg", "price": "₹35", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "pomegranate": [
+    { "name": "Premium Pomegranate", "brand": "RedJuicy", "size": "500g", "price": "₹80", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Desi Pomegranate", "brand": "FruitEx", "size": "500g", "price": "₹70", "aisle": "F8", "tags": ["fruit"] },
+    { "name": "Local Pomegranate", "brand": "Local Produce", "size": "500g", "price": "₹60", "aisle": "F8", "tags": ["fruit"] }
+  ],
+  "milk": [
+  { "name": "Toned Milk", "brand": "Amul", "size": "1L", "price": "₹54", "aisle": "D1", "tags": ["dairy"] },
+  { "name": "Full Cream Milk", "brand": "Nandini", "size": "1L", "price": "₹60", "aisle": "D1", "tags": ["dairy"] },
+  { "name": "Skimmed Milk", "brand": "Mother Dairy", "size": "1L", "price": "₹50", "aisle": "D1", "tags": ["dairy"] },
+  { "name": "Local Dairy Milk", "brand": "Local Produce", "size": "1L", "price": "₹48", "aisle": "D1", "tags": ["dairy"] },
+  { "name": "Fresh Cow Milk", "brand": "Local Farm", "size": "1L", "price": "₹52", "aisle": "D1", "tags": ["dairy"] }
+],
+"butter": [
+  { "name": "Salted Butter", "brand": "Amul", "size": "100g", "price": "₹52", "aisle": "D2", "tags": ["dairy"] },
+  { "name": "Unsalted Butter", "brand": "Mother Dairy", "size": "100g", "price": "₹55", "aisle": "D2", "tags": ["dairy"] },
+  { "name": "Garlic Herb Butter", "brand": "Urban Platter", "size": "100g", "price": "₹80", "aisle": "D2", "tags": ["dairy"] },
+  { "name": "Local Farm Butter", "brand": "Local Produce", "size": "100g", "price": "₹45", "aisle": "D2", "tags": ["dairy"] },
+  { "name": "Desi Butter", "brand": "Village Dairy", "size": "100g", "price": "₹48", "aisle": "D2", "tags": ["dairy"] }
+],
+"cheese": [
+  { "name": "Processed Cheese Slices", "brand": "Amul", "size": "200g", "price": "₹130", "aisle": "D3", "tags": ["dairy"] },
+  { "name": "Cheddar Cheese Block", "brand": "Britannia", "size": "200g", "price": "₹160", "aisle": "D3", "tags": ["dairy"] },
+  { "name": "Mozzarella Cheese", "brand": "Go", "size": "200g", "price": "₹170", "aisle": "D3", "tags": ["dairy"] },
+  { "name": "Local Cottage Cheese", "brand": "Local Produce", "size": "200g", "price": "₹110", "aisle": "D3", "tags": ["dairy"] },
+  { "name": "Farmhouse Cheese", "brand": "Village Dairy", "size": "200g", "price": "₹125", "aisle": "D3", "tags": ["dairy"] }
+],
+"eggs": [
+  { "name": "White Eggs", "brand": "Suguna", "size": "6 pcs", "price": "₹42", "aisle": "E1", "tags": ["egg"] },
+  { "name": "Brown Eggs", "brand": "Nutrich", "size": "6 pcs", "price": "₹48", "aisle": "E1", "tags": ["egg"] },
+  { "name": "Free-Range Eggs", "brand": "Happy Hen", "size": "6 pcs", "price": "₹60", "aisle": "E1", "tags": ["egg"] },
+  { "name": "Local Farm Eggs", "brand": "Local Produce", "size": "6 pcs", "price": "₹38", "aisle": "E1", "tags": ["egg"] },
+  { "name": "Desi Eggs", "brand": "Village Poultry", "size": "6 pcs", "price": "₹45", "aisle": "E1", "tags": ["egg"] }
+],
+"curd": [
+  { "name": "Toned Curd", "brand": "Amul", "size": "400g", "price": "₹30", "aisle": "D4", "tags": ["dairy"] },
+  { "name": "Set Curd", "brand": "Mother Dairy", "size": "400g", "price": "₹35", "aisle": "D4", "tags": ["dairy"] },
+  { "name": "Probiotic Curd", "brand": "Epigamia", "size": "400g", "price": "₹45", "aisle": "D4", "tags": ["dairy"] },
+  { "name": "Local Curd", "brand": "Local Produce", "size": "400g", "price": "₹28", "aisle": "D4", "tags": ["dairy"] },
+  { "name": "Thick Desi Curd", "brand": "Village Dairy", "size": "400g", "price": "₹32", "aisle": "D4", "tags": ["dairy"] }
+],
+"paneer": [
+  { "name": "Fresh Paneer", "brand": "Amul", "size": "200g", "price": "₹80", "aisle": "D5", "tags": ["dairy"] },
+  { "name": "Premium Paneer", "brand": "Mother Dairy", "size": "200g", "price": "₹85", "aisle": "D5", "tags": ["dairy"] },
+  { "name": "Low-Fat Paneer", "brand": "Britannia", "size": "200g", "price": "₹90", "aisle": "D5", "tags": ["dairy"] },
+  { "name": "Local Paneer", "brand": "Local Produce", "size": "200g", "price": "₹70", "aisle": "D5", "tags": ["dairy"] },
+  { "name": "Desi Farm Paneer", "brand": "Village Dairy", "size": "200g", "price": "₹75", "aisle": "D5", "tags": ["dairy"] }
+],
+"ghee": [
+  { "name": "Pure Cow Ghee", "brand": "Amul", "size": "500ml", "price": "₹285", "aisle": "D7", "tags": ["dairy"] },
+  { "name": "Desi Ghee", "brand": "Patanjali", "size": "500ml", "price": "₹270", "aisle": "D7", "tags": ["dairy"] },
+  { "name": "Organic Ghee", "brand": "Gowardhan", "size": "500ml", "price": "₹300", "aisle": "D7", "tags": ["dairy"] },
+  { "name": "Local Desi Ghee", "brand": "Local Produce", "size": "500ml", "price": "₹250", "aisle": "D7", "tags": ["dairy"] },
+  { "name": "Farm Fresh Ghee", "brand": "Village Dairy", "size": "500ml", "price": "₹260", "aisle": "D7", "tags": ["dairy"] }
+],
+"yogurt": [
+  { "name": "Greek Yogurt - Strawberry", "brand": "Epigamia", "size": "100g", "price": "₹40", "aisle": "D8", "tags": ["dairy"] },
+  { "name": "Greek Yogurt - Blueberry", "brand": "Epigamia", "size": "100g", "price": "₹45", "aisle": "D8", "tags": ["dairy"] },
+  { "name": "Flavored Yogurt", "brand": "Nestlé", "size": "100g", "price": "₹35", "aisle": "D8", "tags": ["dairy"] },
+  { "name": "Plain Yogurt", "brand": "Local Produce", "size": "100g", "price": "₹25", "aisle": "D8", "tags": ["dairy"] },
+  { "name": "Desi Yogurt Cup", "brand": "Village Dairy", "size": "100g", "price": "₹28", "aisle": "D8", "tags": ["dairy"] }
+],
+"cream": [
+  { "name": "Fresh Cream", "brand": "Amul", "size": "250ml", "price": "₹60", "aisle": "D9", "tags": ["dairy"] },
+  { "name": "Whipping Cream", "brand": "Rich's", "size": "250ml", "price": "₹80", "aisle": "D9", "tags": ["dairy"] },
+  { "name": "Cooking Cream", "brand": "Del Monte", "size": "250ml", "price": "₹75", "aisle": "D9", "tags": ["dairy"] },
+  { "name": "Local Fresh Cream", "brand": "Local Produce", "size": "250ml", "price": "₹55", "aisle": "D9", "tags": ["dairy"] },
+  { "name": "Thick Cream", "brand": "Village Dairy", "size": "250ml", "price": "₹58", "aisle": "D9", "tags": ["dairy"] }
+],
+"mutton": [
+  { "name": "Mutton Curry Cut", "brand": "Licious", "size": "500g", "price": "₹550", "aisle": "M2", "tags": ["meat", "red meat"] },
+  { "name": "Boneless Mutton", "brand": "FreshtoHome", "size": "500g", "price": "₹620", "aisle": "M2", "tags": ["meat", "red meat"] },
+  { "name": "Mutton Ribs & Chops", "brand": "Zappfresh", "size": "500g", "price": "₹580", "aisle": "M2", "tags": ["meat", "red meat"] },
+  { "name": "Local Goat Meat", "brand": "Local Butcher", "size": "500g", "price": "₹500", "aisle": "M2", "tags": ["meat", "red meat"] },
+  { "name": "Desi Mutton", "brand": "Village Farm", "size": "500g", "price": "₹520", "aisle": "M2", "tags": ["meat", "red meat"] }
+],
+"chicken": [
+  { "name": "Chicken Curry Cut", "brand": "Licious", "size": "500g", "price": "₹170", "aisle": "M1", "tags": ["meat", "poultry"] },
+  { "name": "Boneless Chicken Breast", "brand": "Meatigo", "size": "500g", "price": "₹220", "aisle": "M1", "tags": ["meat", "poultry"] },
+  { "name": "Chicken Drumsticks", "brand": "Zappfresh", "size": "500g", "price": "₹200", "aisle": "M1", "tags": ["meat", "poultry"] },
+  { "name": "Local Chicken Pieces", "brand": "Local Produce", "size": "500g", "price": "₹150", "aisle": "M1", "tags": ["meat", "poultry"] },
+  { "name": "Desi Chicken Cut", "brand": "Local Farm", "size": "500g", "price": "₹160", "aisle": "M1", "tags": ["meat", "poultry"] }
+],
+"fish": [
+  { "name": "Rohu Fish Slices", "brand": "FreshtoHome", "size": "500g", "price": "₹180", "aisle": "M3", "tags": ["seafood"] },
+  { "name": "Tilapia Fillet", "brand": "Licious", "size": "500g", "price": "₹200", "aisle": "M3", "tags": ["seafood"] },
+  { "name": "Seer Fish (Surmai) Steaks", "brand": "Zappfresh", "size": "500g", "price": "₹350", "aisle": "M3", "tags": ["seafood"] },
+  { "name": "Local Fresh Fish", "brand": "Local Catch", "size": "500g", "price": "₹160", "aisle": "M3", "tags": ["seafood"] },
+  { "name": "Desi Catla Fish", "brand": "Village Fishery", "size": "500g", "price": "₹175", "aisle": "M3", "tags": ["seafood"] }
+],
+"prawns": [
+  { "name": "Medium Prawns (Cleaned)", "brand": "FreshtoHome", "size": "250g", "price": "₹240", "aisle": "M4", "tags": ["seafood"] },
+  { "name": "Large Tiger Prawns", "brand": "Licious", "size": "250g", "price": "₹290", "aisle": "M4", "tags": ["seafood"] },
+  { "name": "Small Shrimp", "brand": "Meatigo", "size": "250g", "price": "₹210", "aisle": "M4", "tags": ["seafood"] },
+  { "name": "Local River Prawns", "brand": "Local Catch", "size": "250g", "price": "₹200", "aisle": "M4", "tags": ["seafood"] },
+  { "name": "Desi Prawns", "brand": "Village Fishery", "size": "250g", "price": "₹190", "aisle": "M4", "tags": ["seafood"] }
+],
+"chicken sausages": [
+  { "name": "Classic Chicken Sausages", "brand": "Godrej Yummiez", "size": "250g", "price": "₹135", "aisle": "M5", "tags": ["meat", "processed"] },
+  { "name": "Smoked Chicken Sausages", "brand": "Real Good", "size": "250g", "price": "₹150", "aisle": "M5", "tags": ["meat", "processed"] },
+  { "name": "Spicy Chicken Sausages", "brand": "Zorabian", "size": "250g", "price": "₹160", "aisle": "M5", "tags": ["meat", "processed"] },
+  { "name": "Local Chicken Sausages", "brand": "Local Butcher", "size": "250g", "price": "₹120", "aisle": "M5", "tags": ["meat", "processed"] },
+  { "name": "Desi Chicken Sausages", "brand": "Village Meat", "size": "250g", "price": "₹125", "aisle": "M5", "tags": ["meat", "processed"] }
+],
+"rice": [
+  { "name": "Basmati Rice", "brand": "India Gate", "size": "1kg", "price": "₹120", "aisle": "G1", "tags": ["grain", "staple"] },
+  { "name": "Kolam Rice", "brand": "Daawat", "size": "1kg", "price": "₹90", "aisle": "G1", "tags": ["grain", "staple"] },
+  { "name": "Sona Masoori Rice", "brand": "Fortune", "size": "1kg", "price": "₹85", "aisle": "G1", "tags": ["grain", "staple"] },
+  { "name": "Local Boiled Rice", "brand": "Local Produce", "size": "1kg", "price": "₹70", "aisle": "G1", "tags": ["grain", "staple"] },
+  { "name": "Raw Rice", "brand": "Village Grains", "size": "1kg", "price": "₹68", "aisle": "G1", "tags": ["grain", "staple"] }
+],
+"wheat flour": [
+  { "name": "Whole Wheat Atta", "brand": "Aashirvaad", "size": "1kg", "price": "₹50", "aisle": "G2", "tags": ["grain", "staple"] },
+  { "name": "Multigrain Atta", "brand": "Patanjali", "size": "1kg", "price": "₹55", "aisle": "G2", "tags": ["grain", "staple"] },
+  { "name": "Sharbati Atta", "brand": "Fortune", "size": "1kg", "price": "₹60", "aisle": "G2", "tags": ["grain", "staple"] },
+  { "name": "Local Chakki Atta", "brand": "Local Mill", "size": "1kg", "price": "₹45", "aisle": "G2", "tags": ["grain", "staple"] },
+  { "name": "Desi Atta", "brand": "Village Grains", "size": "1kg", "price": "₹48", "aisle": "G2", "tags": ["grain", "staple"] }
+],
+"toor dal": [
+  { "name": "Premium Toor Dal", "brand": "Tata Sampann", "size": "1kg", "price": "₹120", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Unpolished Toor Dal", "brand": "24 Mantra", "size": "1kg", "price": "₹130", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Polished Toor Dal", "brand": "Fortune", "size": "1kg", "price": "₹115", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Local Toor Dal", "brand": "Local Produce", "size": "1kg", "price": "₹105", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Desi Toor Dal", "brand": "Village Pulses", "size": "1kg", "price": "₹110", "aisle": "G3", "tags": ["dal", "staple"] }
+],
+"moong dal": [
+  { "name": "Split Moong Dal", "brand": "Tata Sampann", "size": "1kg", "price": "₹95", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Whole Moong Dal", "brand": "Organic Tattva", "size": "1kg", "price": "₹105", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Yellow Moong Dal", "brand": "Fortune", "size": "1kg", "price": "₹100", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Local Moong Dal", "brand": "Local Produce", "size": "1kg", "price": "₹90", "aisle": "G3", "tags": ["dal", "staple"] },
+  { "name": "Desi Moong Dal", "brand": "Village Pulses", "size": "1kg", "price": "₹92", "aisle": "G3", "tags": ["dal", "staple"] }
+],
+"chana dal": [
+  { "name": "Chana Dal", "brand": "Tata Sampann", "size": "1kg", "price": "₹85", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Organic Chana Dal", "brand": "24 Mantra", "size": "1kg", "price": "₹95", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Split Bengal Gram", "brand": "Fortune", "size": "1kg", "price": "₹88", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Local Chana Dal", "brand": "Local Produce", "size": "1kg", "price": "₹78", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Desi Chana Dal", "brand": "Village Pulses", "size": "1kg", "price": "₹80", "aisle": "G4", "tags": ["dal", "staple"] }
+],
+"sugar": [
+  { "name": "White Sugar", "brand": "Madhur", "size": "1kg", "price": "₹44", "aisle": "G5", "tags": ["staple"] },
+  { "name": "Sulphurless Sugar", "brand": "24 Mantra", "size": "1kg", "price": "₹48", "aisle": "G5", "tags": ["staple"] },
+  { "name": "Organic Sugar", "brand": "Organic Tattva", "size": "1kg", "price": "₹55", "aisle": "G5", "tags": ["staple"] },
+  { "name": "Local White Sugar", "brand": "Local Produce", "size": "1kg", "price": "₹40", "aisle": "G5", "tags": ["staple"] },
+  { "name": "Desi Crystal Sugar", "brand": "Village Mills", "size": "1kg", "price": "₹42", "aisle": "G5", "tags": ["staple"] }
+],
+"salt": [
+  { "name": "Iodized Salt", "brand": "Tata Salt", "size": "1kg", "price": "₹22", "aisle": "G6", "tags": ["staple"] },
+  { "name": "Low Sodium Salt", "brand": "Aashirvaad", "size": "1kg", "price": "₹30", "aisle": "G6", "tags": ["staple"] },
+  { "name": "Rock Salt", "brand": "Patanjali", "size": "1kg", "price": "₹35", "aisle": "G6", "tags": ["staple"] },
+  { "name": "Local Rock Salt", "brand": "Local Produce", "size": "1kg", "price": "₹25", "aisle": "G6", "tags": ["staple"] },
+  { "name": "Desi Black Salt", "brand": "Village Farms", "size": "1kg", "price": "₹28", "aisle": "G6", "tags": ["staple"] }
+],"masoor dal": [
+  { "name": "Red Masoor Dal", "brand": "Tata Sampann", "size": "1kg", "price": "₹90", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Whole Masoor Dal", "brand": "Organic Tattva", "size": "1kg", "price": "₹98", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Polished Masoor Dal", "brand": "Fortune", "size": "1kg", "price": "₹85", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Local Masoor Dal", "brand": "Local Produce", "size": "1kg", "price": "₹78", "aisle": "G4", "tags": ["dal", "staple"] },
+  { "name": "Desi Masoor Dal", "brand": "Village Pulses", "size": "1kg", "price": "₹80", "aisle": "G4", "tags": ["dal", "staple"] }
+],
+"poha": [
+  { "name": "Thick Poha", "brand": "Annapurna", "size": "500g", "price": "₹30", "aisle": "G5", "tags": ["grain", "staple"] },
+  { "name": "Medium Poha", "brand": "Patanjali", "size": "500g", "price": "₹28", "aisle": "G5", "tags": ["grain", "staple"] },
+  { "name": "Organic Poha", "brand": "24 Mantra", "size": "500g", "price": "₹35", "aisle": "G5", "tags": ["grain", "staple"] },
+  { "name": "Local Poha", "brand": "Local Produce", "size": "500g", "price": "₹25", "aisle": "G5", "tags": ["grain", "staple"] },
+  { "name": "Desi Beaten Rice", "brand": "Village Grains", "size": "500g", "price": "₹26", "aisle": "G5", "tags": ["grain", "staple"] }
+],
+"sooji": [
+  { "name": "Fine Rava (Sooji)", "brand": "Aashirvaad", "size": "500g", "price": "₹28", "aisle": "G6", "tags": ["grain", "staple"] },
+  { "name": "Coarse Sooji", "brand": "Patanjali", "size": "500g", "price": "₹25", "aisle": "G6", "tags": ["grain", "staple"] },
+  { "name": "Organic Rava", "brand": "24 Mantra", "size": "500g", "price": "₹32", "aisle": "G6", "tags": ["grain", "staple"] },
+  { "name": "Local Sooji", "brand": "Local Produce", "size": "500g", "price": "₹22", "aisle": "G6", "tags": ["grain", "staple"] },
+  { "name": "Desi Rava", "brand": "Village Mills", "size": "500g", "price": "₹24", "aisle": "G6", "tags": ["grain", "staple"] }
+],
+"turmeric powder": [
+  { "name": "Haldi Powder", "brand": "Everest", "size": "100g", "price": "₹32", "aisle": "S1", "tags": ["spice"] },
+  { "name": "Organic Turmeric", "brand": "24 Mantra", "size": "100g", "price": "₹38", "aisle": "S1", "tags": ["spice"] },
+  { "name": "Premium Haldi", "brand": "Tata Sampann", "size": "100g", "price": "₹35", "aisle": "S1", "tags": ["spice"] },
+  { "name": "Local Haldi", "brand": "Local Produce", "size": "100g", "price": "₹25", "aisle": "S1", "tags": ["spice"] },
+  { "name": "Desi Turmeric", "brand": "Village Spices", "size": "100g", "price": "₹28", "aisle": "S1", "tags": ["spice"] }
+],
+"cumin seeds": [
+  { "name": "Whole Cumin", "brand": "Everest", "size": "100g", "price": "₹45", "aisle": "S2", "tags": ["spice"] },
+  { "name": "Jeera Seeds", "brand": "Catch", "size": "100g", "price": "₹48", "aisle": "S2", "tags": ["spice"] },
+  { "name": "Organic Cumin", "brand": "Organic Tattva", "size": "100g", "price": "₹55", "aisle": "S2", "tags": ["spice"] },
+  { "name": "Local Jeera", "brand": "Local Produce", "size": "100g", "price": "₹38", "aisle": "S2", "tags": ["spice"] },
+  { "name": "Desi Cumin", "brand": "Village Spices", "size": "100g", "price": "₹42", "aisle": "S2", "tags": ["spice"] }
+],
+"garam masala": [
+  { "name": "Garam Masala", "brand": "MDH", "size": "100g", "price": "₹60", "aisle": "S3", "tags": ["spice"] },
+  { "name": "Shahi Garam Masala", "brand": "Everest", "size": "100g", "price": "₹65", "aisle": "S3", "tags": ["spice"] },
+  { "name": "Organic Garam Masala", "brand": "24 Mantra", "size": "100g", "price": "₹70", "aisle": "S3", "tags": ["spice"] },
+  { "name": "Local Garam Masala", "brand": "Local Produce", "size": "100g", "price": "₹55", "aisle": "S3", "tags": ["spice"] },
+  { "name": "Desi Garam Mix", "brand": "Village Spices", "size": "100g", "price": "₹58", "aisle": "S3", "tags": ["spice"] }
+],
+"biryani masala": [
+  { "name": "Hyderabadi Biryani Masala", "brand": "Everest", "size": "50g", "price": "₹40", "aisle": "S4", "tags": ["spice"] },
+  { "name": "Biryani Mix", "brand": "MDH", "size": "50g", "price": "₹42", "aisle": "S4", "tags": ["spice"] },
+  { "name": "Shan Biryani Masala", "brand": "Shan", "size": "60g", "price": "₹45", "aisle": "S4", "tags": ["spice"] },
+  { "name": "Local Biryani Mix", "brand": "Local Produce", "size": "50g", "price": "₹35", "aisle": "S4", "tags": ["spice"] },
+  { "name": "Desi Dum Masala", "brand": "Village Spices", "size": "50g", "price": "₹38", "aisle": "S4", "tags": ["spice"] }
+],
+"red chili powder": [
+  { "name": "Lal Mirch Powder", "brand": "Everest", "size": "100g", "price": "₹38", "aisle": "S5", "tags": ["spice"] },
+  { "name": "Kashmiri Chili Powder", "brand": "MDH", "size": "100g", "price": "₹42", "aisle": "S5", "tags": ["spice"] },
+  { "name": "Organic Chili", "brand": "Organic Tattva", "size": "100g", "price": "₹48", "aisle": "S5", "tags": ["spice"] },
+  { "name": "Local Chili Powder", "brand": "Local Produce", "size": "100g", "price": "₹30", "aisle": "S5", "tags": ["spice"] },
+  { "name": "Desi Lal Mirch", "brand": "Village Spices", "size": "100g", "price": "₹32", "aisle": "S5", "tags": ["spice"] }
+],
+"black pepper": [
+  { "name": "Whole Black Pepper", "brand": "Catch", "size": "100g", "price": "₹70", "aisle": "S6", "tags": ["spice"] },
+  { "name": "Pepper Powder", "brand": "Everest", "size": "100g", "price": "₹68", "aisle": "S6", "tags": ["spice"] },
+  { "name": "Organic Pepper", "brand": "Organic Tattva", "size": "100g", "price": "₹80", "aisle": "S6", "tags": ["spice"] },
+  { "name": "Local Pepper", "brand": "Local Produce", "size": "100g", "price": "₹60", "aisle": "S6", "tags": ["spice"] },
+  { "name": "Desi Pepper", "brand": "Village Spices", "size": "100g", "price": "₹65", "aisle": "S6", "tags": ["spice"] }
+],
+"asafoetida": [
+  { "name": "Hing", "brand": "L.G", "size": "50g", "price": "₹80", "aisle": "S7", "tags": ["spice"] },
+  { "name": "Compounded Asafoetida", "brand": "Catch", "size": "50g", "price": "₹85", "aisle": "S7", "tags": ["spice"] },
+  { "name": "Organic Hing", "brand": "24 Mantra", "size": "50g", "price": "₹90", "aisle": "S7", "tags": ["spice"] },
+  { "name": "Local Hing", "brand": "Local Produce", "size": "50g", "price": "₹70", "aisle": "S7", "tags": ["spice"] },
+  { "name": "Desi Asafoetida", "brand": "Village Spices", "size": "50g", "price": "₹75", "aisle": "S7", "tags": ["spice"] }
+],
+"coriander powder": [
+  { "name": "Dhaniya Powder", "brand": "MDH", "size": "100g", "price": "₹30", "aisle": "S8", "tags": ["spice"] },
+  { "name": "Coriander Powder", "brand": "Catch", "size": "100g", "price": "₹32", "aisle": "S8", "tags": ["spice"] },
+  { "name": "Organic Coriander", "brand": "24 Mantra", "size": "100g", "price": "₹36", "aisle": "S8", "tags": ["spice"] },
+  { "name": "Local Dhaniya", "brand": "Local Produce", "size": "100g", "price": "₹28", "aisle": "S8", "tags": ["spice"] },
+  { "name": "Desi Coriander", "brand": "Village Spices", "size": "100g", "price": "₹30", "aisle": "S8", "tags": ["spice"] }
+],
+"chaat masala": [
+  { "name": "Chaat Masala", "brand": "MDH", "size": "100g", "price": "₹42", "aisle": "S9", "tags": ["spice"] },
+  { "name": "Tangy Chaat Mix", "brand": "Everest", "size": "100g", "price": "₹40", "aisle": "S9", "tags": ["spice"] },
+  { "name": "Organic Chaat Masala", "brand": "24 Mantra", "size": "100g", "price": "₹50", "aisle": "S9", "tags": ["spice"] },
+  { "name": "Local Chaat Mix", "brand": "Local Produce", "size": "100g", "price": "₹35", "aisle": "S9", "tags": ["spice"] },
+  { "name": "Desi Chaat Masala", "brand": "Village Spices", "size": "100g", "price": "₹38", "aisle": "S9", "tags": ["spice"] }
+],
+"ginger garlic paste": [
+  { "name": "Ginger Garlic Paste", "brand": "Mother’s Recipe", "size": "200g", "price": "₹35", "aisle": "S10", "tags": ["condiment"] },
+  { "name": "Spicy Ginger Garlic Mix", "brand": "Priya", "size": "200g", "price": "₹38", "aisle": "S10", "tags": ["condiment"] },
+  { "name": "Organic Paste", "brand": "24 Mantra", "size": "200g", "price": "₹42", "aisle": "S10", "tags": ["condiment"] },
+  { "name": "Local Paste", "brand": "Local Produce", "size": "200g", "price": "₹30", "aisle": "S10", "tags": ["condiment"] },
+  { "name": "Desi Ginger-Garlic", "brand": "Village Kitchen", "size": "200g", "price": "₹32", "aisle": "S10", "tags": ["condiment"] }
+],
+"mustard seeds": [
+  { "name": "Yellow Mustard Seeds", "brand": "Catch", "size": "100g", "price": "₹28", "aisle": "S11", "tags": ["spice"] },
+  { "name": "Black Mustard Seeds", "brand": "MDH", "size": "100g", "price": "₹30", "aisle": "S11", "tags": ["spice"] },
+  { "name": "Organic Mustard Seeds", "brand": "24 Mantra", "size": "100g", "price": "₹34", "aisle": "S11", "tags": ["spice"] },
+  { "name": "Local Mustard", "brand": "Local Produce", "size": "100g", "price": "₹22", "aisle": "S11", "tags": ["spice"] },
+  { "name": "Desi Rai", "brand": "Village Spices", "size": "100g", "price": "₹25", "aisle": "S11", "tags": ["spice"] }
+],
+"fenugreek seeds": [
+  { "name": "Methi Seeds", "brand": "MDH", "size": "100g", "price": "₹26", "aisle": "S12", "tags": ["spice"] },
+  { "name": "Fenugreek Seeds", "brand": "Catch", "size": "100g", "price": "₹28", "aisle": "S12", "tags": ["spice"] },
+  { "name": "Organic Methi", "brand": "Organic Tattva", "size": "100g", "price": "₹32", "aisle": "S12", "tags": ["spice"] },
+  { "name": "Local Methi", "brand": "Local Produce", "size": "100g", "price": "₹20", "aisle": "S12", "tags": ["spice"] },
+  { "name": "Desi Methi", "brand": "Village Spices", "size": "100g", "price": "₹24", "aisle": "S12", "tags": ["spice"] }
+],
+"tamarind": [
+  { "name": "Seedless Tamarind", "brand": "Tamarind Tree", "size": "200g", "price": "₹35", "aisle": "S13", "tags": ["condiment"] },
+  { "name": "Imli Block", "brand": "Mother’s Recipe", "size": "200g", "price": "₹38", "aisle": "S13", "tags": ["condiment"] },
+  { "name": "Organic Tamarind", "brand": "24 Mantra", "size": "200g", "price": "₹42", "aisle": "S13", "tags": ["condiment"] },
+  { "name": "Local Tamarind", "brand": "Local Produce", "size": "200g", "price": "₹28", "aisle": "S13", "tags": ["condiment"] },
+  { "name": "Desi Imli", "brand": "Village Kitchen", "size": "200g", "price": "₹30", "aisle": "S13", "tags": ["condiment"] }
+],
+"dry mango powder": [
+  { "name": "Amchur Powder", "brand": "MDH", "size": "100g", "price": "₹38", "aisle": "S14", "tags": ["spice"] },
+  { "name": "Dry Mango Powder", "brand": "Catch", "size": "100g", "price": "₹40", "aisle": "S14", "tags": ["spice"] },
+  { "name": "Organic Amchur", "brand": "Organic Tattva", "size": "100g", "price": "₹45", "aisle": "S14", "tags": ["spice"] },
+  { "name": "Local Amchur", "brand": "Local Produce", "size": "100g", "price": "₹30", "aisle": "S14", "tags": ["spice"] },
+  { "name": "Desi Mango Spice", "brand": "Village Spices", "size": "100g", "price": "₹32", "aisle": "S14", "tags": ["spice"] }
+],
+"kasuri methi": [
+  { "name": "Kasuri Methi Leaves", "brand": "MDH", "size": "50g", "price": "₹30", "aisle": "S15", "tags": ["spice"] },
+  { "name": "Dried Fenugreek", "brand": "Catch", "size": "50g", "price": "₹32", "aisle": "S15", "tags": ["spice"] },
+  { "name": "Organic Kasuri Methi", "brand": "Organic Tattva", "size": "50g", "price": "₹36", "aisle": "S15", "tags": ["spice"] },
+  { "name": "Local Kasuri Methi", "brand": "Local Produce", "size": "50g", "price": "₹24", "aisle": "S15", "tags": ["spice"] },
+  { "name": "Desi Methi Leaves", "brand": "Village Spices", "size": "50g", "price": "₹28", "aisle": "S15", "tags": ["spice"] }
+],
+"vinegar": [
+  { "name": "White Vinegar", "brand": "FunFoods", "size": "200ml", "price": "₹35", "aisle": "C1", "tags": ["condiment"] },
+  { "name": "Synthetic Vinegar", "brand": "Weikfield", "size": "200ml", "price": "₹30", "aisle": "C1", "tags": ["condiment"] },
+  { "name": "Apple Cider Vinegar", "brand": "Bragg", "size": "200ml", "price": "₹80", "aisle": "C1", "tags": ["condiment"] },
+  { "name": "Local Vinegar", "brand": "Local Produce", "size": "200ml", "price": "₹25", "aisle": "C1", "tags": ["condiment"] },
+  { "name": "Desi Vinegar", "brand": "Village Kitchen", "size": "200ml", "price": "₹28", "aisle": "C1", "tags": ["condiment"] }
+],
+"soy sauce": [
+  { "name": "Soy Sauce", "brand": "Ching's Secret", "size": "200ml", "price": "₹45", "aisle": "C2", "tags": ["condiment"] },
+  { "name": "Dark Soy Sauce", "brand": "Kikkoman", "size": "200ml", "price": "₹90", "aisle": "C2", "tags": ["condiment"] },
+  { "name": "Light Soy Sauce", "brand": "Weikfield", "size": "200ml", "price": "₹50", "aisle": "C2", "tags": ["condiment"] },
+  { "name": "Local Soy Sauce", "brand": "Local Produce", "size": "200ml", "price": "₹30", "aisle": "C2", "tags": ["condiment"] },
+  { "name": "Desi Soya Mix", "brand": "Village Kitchen", "size": "200ml", "price": "₹32", "aisle": "C2", "tags": ["condiment"] }
+],
+"green chutney": [
+  { "name": "Coriander Chutney", "brand": "Mother's Recipe", "size": "200g", "price": "₹30", "aisle": "C3", "tags": ["condiment"] },
+  { "name": "Mint Chutney", "brand": "Tops", "size": "200g", "price": "₹28", "aisle": "C3", "tags": ["condiment"] },
+  { "name": "Spicy Green Dip", "brand": "FunFoods", "size": "200g", "price": "₹32", "aisle": "C3", "tags": ["condiment"] },
+  { "name": "Local Green Chutney", "brand": "Local Produce", "size": "200g", "price": "₹22", "aisle": "C3", "tags": ["condiment"] },
+  { "name": "Desi Chutney", "brand": "Village Kitchen", "size": "200g", "price": "₹25", "aisle": "C3", "tags": ["condiment"] }
+],
+"schezwan sauce": [
+  { "name": "Schezwan Sauce", "brand": "Ching's Secret", "size": "250g", "price": "₹40", "aisle": "C4", "tags": ["condiment"] },
+  { "name": "Hot Schezwan Dip", "brand": "FunFoods", "size": "250g", "price": "₹42", "aisle": "C4", "tags": ["condiment"] },
+  { "name": "Desi Chinese Sauce", "brand": "Weikfield", "size": "250g", "price": "₹38", "aisle": "C4", "tags": ["condiment"] },
+  { "name": "Local Schezwan", "brand": "Local Produce", "size": "250g", "price": "₹30", "aisle": "C4", "tags": ["condiment"] },
+  { "name": "Village Spicy Mix", "brand": "Village Kitchen", "size": "250g", "price": "₹32", "aisle": "C4", "tags": ["condiment"] }
+],
+"pickle": [
+  { "name": "Mixed Veg Pickle", "brand": "Pachranga", "size": "500g", "price": "₹70", "aisle": "C5", "tags": ["condiment"] },
+  { "name": "Mango Pickle", "brand": "Mother's Recipe", "size": "500g", "price": "₹65", "aisle": "C5", "tags": ["condiment"] },
+  { "name": "Lime Pickle", "brand": "Priya", "size": "500g", "price": "₹60", "aisle": "C5", "tags": ["condiment"] },
+  { "name": "Local Achar", "brand": "Local Produce", "size": "500g", "price": "₹50", "aisle": "C5", "tags": ["condiment"] },
+  { "name": "Desi Pickle", "brand": "Village Kitchen", "size": "500g", "price": "₹52", "aisle": "C5", "tags": ["condiment"] }
+],
+"oregano": [
+  { "name": "Italian Oregano", "brand": "Keya", "size": "25g", "price": "₹55", "aisle": "S16", "tags": ["condiment", "seasoning"] },
+  { "name": "Oregano Flakes", "brand": "Urban Platter", "size": "25g", "price": "₹60", "aisle": "S16", "tags": ["condiment", "seasoning"] },
+  { "name": "Classic Oregano", "brand": "Catch", "size": "25g", "price": "₹50", "aisle": "S16", "tags": ["condiment", "seasoning"] },
+  { "name": "Local Oregano", "brand": "Local Produce", "size": "25g", "price": "₹35", "aisle": "S16", "tags": ["condiment", "seasoning"] },
+  { "name": "Desi Oregano", "brand": "Village Spices", "size": "25g", "price": "₹38", "aisle": "S16", "tags": ["condiment", "seasoning"] }
+],
+"chili flakes": [
+  { "name": "Red Chili Flakes", "brand": "Keya", "size": "25g", "price": "₹50", "aisle": "S17", "tags": ["condiment", "seasoning"] },
+  { "name": "Spicy Chili Flakes", "brand": "Urban Platter", "size": "25g", "price": "₹55", "aisle": "S17", "tags": ["condiment", "seasoning"] },
+  { "name": "Crushed Chili Flakes", "brand": "Catch", "size": "25g", "price": "₹45", "aisle": "S17", "tags": ["condiment", "seasoning"] },
+  { "name": "Local Chili Flakes", "brand": "Local Produce", "size": "25g", "price": "₹30", "aisle": "S17", "tags": ["condiment", "seasoning"] },
+  { "name": "Desi Chili Sprinkle", "brand": "Village Spices", "size": "25g", "price": "₹35", "aisle": "S17", "tags": ["condiment", "seasoning"] }
+],
+"pizza seasoning mix": [
+  { "name": "Pizza Seasoning Mix", "brand": "Keya", "size": "30g", "price": "₹60", "aisle": "S18", "tags": ["condiment", "seasoning"] },
+  { "name": "Herb Pizza Mix", "brand": "Urban Platter", "size": "30g", "price": "₹65", "aisle": "S18", "tags": ["condiment", "seasoning"] },
+  { "name": "Pizza Flavour Mix", "brand": "Catch", "size": "30g", "price": "₹55", "aisle": "S18", "tags": ["condiment", "seasoning"] },
+  { "name": "Local Pizza Mix", "brand": "Local Produce", "size": "30g", "price": "₹40", "aisle": "S18", "tags": ["condiment", "seasoning"] },
+  { "name": "Desi Italian Mix", "brand": "Village Kitchen", "size": "30g", "price": "₹45", "aisle": "S18", "tags": ["condiment", "seasoning"] }
+],
+"groundnut oil": [
+    { "name": "Refined Groundnut Oil", "brand": "Fortune", "size": "1L", "price": "₹145", "aisle": "O6", "tags": ["oil"] },
+    { "name": "Cold Pressed Groundnut Oil", "brand": "24 Mantra", "size": "1L", "price": "₹170", "aisle": "O6", "tags": ["oil"] },
+    { "name": "Pure Groundnut Oil", "brand": "Patanjali", "size": "1L", "price": "₹160", "aisle": "O6", "tags": ["oil"] },
+    { "name": "Local Groundnut Oil", "brand": "Local Produce", "size": "1L", "price": "₹130", "aisle": "O6", "tags": ["oil"] },
+    { "name": "Desi Moongfali Tel", "brand": "Village Naturals", "size": "1L", "price": "₹140", "aisle": "O6", "tags": ["oil"] }
+  ],
+  "rice bran oil": [
+    { "name": "Refined Rice Bran Oil", "brand": "Fortune", "size": "1L", "price": "₹135", "aisle": "O7", "tags": ["oil"] },
+    { "name": "Healthy Rice Bran Oil", "brand": "Saffola", "size": "1L", "price": "₹145", "aisle": "O7", "tags": ["oil"] },
+    { "name": "Pure Rice Bran Oil", "brand": "Nature Fresh", "size": "1L", "price": "₹130", "aisle": "O7", "tags": ["oil"] },
+    { "name": "Local Rice Bran Oil", "brand": "Local Produce", "size": "1L", "price": "₹120", "aisle": "O7", "tags": ["oil"] },
+    { "name": "Organic Rice Bran Oil", "brand": "Organic India", "size": "1L", "price": "₹150", "aisle": "O7", "tags": ["oil"] }
+  ],
+  "sesame oil": [
+    { "name": "Cold Pressed Sesame Oil", "brand": "24 Mantra", "size": "500ml", "price": "₹160", "aisle": "O8", "tags": ["oil"] },
+    { "name": "Pure Gingelly Oil", "brand": "Idhayam", "size": "500ml", "price": "₹155", "aisle": "O8", "tags": ["oil"] },
+    { "name": "Natural Sesame Oil", "brand": "Patanjali", "size": "500ml", "price": "₹150", "aisle": "O8", "tags": ["oil"] },
+    { "name": "Local Sesame Oil", "brand": "Local Produce", "size": "500ml", "price": "₹130", "aisle": "O8", "tags": ["oil"] },
+    { "name": "Desi Til Oil", "brand": "Village Naturals", "size": "500ml", "price": "₹140", "aisle": "O8", "tags": ["oil"] }
+  ],
+  "vegetable oil": [
+    { "name": "Refined Vegetable Oil", "brand": "Fortune", "size": "1L", "price": "₹125", "aisle": "O9", "tags": ["oil"] },
+    { "name": "Blended Vegetable Oil", "brand": "Dhara", "size": "1L", "price": "₹130", "aisle": "O9", "tags": ["oil"] },
+    { "name": "Vegetable Cooking Oil", "brand": "Nature Fresh", "size": "1L", "price": "₹120", "aisle": "O9", "tags": ["oil"] },
+    { "name": "Local Vegetable Oil", "brand": "Local Produce", "size": "1L", "price": "₹110", "aisle": "O9", "tags": ["oil"] },
+    { "name": "Pure Veg Oil", "brand": "Village Naturals", "size": "1L", "price": "₹115", "aisle": "O9", "tags": ["oil"] }
+  ],
+  "blended oil": [
+    { "name": "Rice Bran + Soya Blend", "brand": "Saffola Active", "size": "1L", "price": "₹140", "aisle": "O10", "tags": ["oil"] },
+    { "name": "Sunflower + Olive Blend", "brand": "Saffola Aura", "size": "1L", "price": "₹170", "aisle": "O10", "tags": ["oil"] },
+    { "name": "Rice Bran + Mustard Blend", "brand": "Fortune Xpert", "size": "1L", "price": "₹150", "aisle": "O10", "tags": ["oil"] },
+    { "name": "Local Blended Oil", "brand": "Local Produce", "size": "1L", "price": "₹125", "aisle": "O10", "tags": ["oil"] },
+    { "name": "Health Oil Mix", "brand": "Organic India", "size": "1L", "price": "₹165", "aisle": "O10", "tags": ["oil"] }
+  ],
+  "potato chips": [
+    { "name": "Classic Salted Chips", "brand": "Lays", "size": "90g", "price": "₹20", "aisle": "S1", "tags": ["snack"] },
+    { "name": "Magic Masala Chips", "brand": "Lays", "size": "90g", "price": "₹20", "aisle": "S1", "tags": ["snack"] },
+    { "name": "Peri Peri Chips", "brand": "Uncle Chipps", "size": "90g", "price": "₹18", "aisle": "S1", "tags": ["snack"] },
+    { "name": "Local Masala Chips", "brand": "Local Produce", "size": "90g", "price": "₹15", "aisle": "S1", "tags": ["snack"] },
+    { "name": "Tandoori Chips", "brand": "Bingo", "size": "90g", "price": "₹20", "aisle": "S1", "tags": ["snack"] }
+  ],
+  "namkeen": [
+    { "name": "Aloo Bhujia", "brand": "Haldiram's", "size": "200g", "price": "₹45", "aisle": "S2", "tags": ["snack"] },
+    { "name": "Khatta Meetha", "brand": "Bikaji", "size": "200g", "price": "₹40", "aisle": "S2", "tags": ["snack"] },
+    { "name": "Navratan Mix", "brand": "Haldiram's", "size": "200g", "price": "₹50", "aisle": "S2", "tags": ["snack"] },
+    { "name": "Spicy Namkeen", "brand": "Local Produce", "size": "200g", "price": "₹35", "aisle": "S2", "tags": ["snack"] },
+    { "name": "Punjabi Tadka", "brand": "Bikanervala", "size": "200g", "price": "₹48", "aisle": "S2", "tags": ["snack"] }
+  ],
+  "biscuits": [
+    { "name": "Marie Gold", "brand": "Britannia", "size": "250g", "price": "₹30", "aisle": "S3", "tags": ["snack"] },
+    { "name": "Good Day Butter", "brand": "Britannia", "size": "200g", "price": "₹35", "aisle": "S3", "tags": ["snack"] },
+    { "name": "Hide & Seek Fab", "brand": "Parle", "size": "120g", "price": "₹25", "aisle": "S3", "tags": ["snack"] },
+    { "name": "Glucose Biscuits", "brand": "Parle-G", "size": "250g", "price": "₹20", "aisle": "S3", "tags": ["snack"] },
+    { "name": "Local Butter Biscuits", "brand": "Local Produce", "size": "200g", "price": "₹22", "aisle": "S3", "tags": ["snack"] }
+  ],
+  "instant noodles": [
+    { "name": "Masala Noodles", "brand": "Maggi", "size": "280g (4 pack)", "price": "₹55", "aisle": "S4", "tags": ["snack"] },
+    { "name": "Spicy Noodles", "brand": "Yippee", "size": "280g (4 pack)", "price": "₹50", "aisle": "S4", "tags": ["snack"] },
+    { "name": "Curry Noodles", "brand": "Top Ramen", "size": "280g (4 pack)", "price": "₹48", "aisle": "S4", "tags": ["snack"] },
+    { "name": "Local Masala Noodles", "brand": "Local Produce", "size": "280g", "price": "₹40", "aisle": "S4", "tags": ["snack"] },
+    { "name": "Cheese Noodles", "brand": "Patanjali", "size": "280g", "price": "₹45", "aisle": "S4", "tags": ["snack"] }
+  ],
+  "popcorn": [
+    { "name": "Classic Butter Popcorn", "brand": "Act II", "size": "30g", "price": "₹10", "aisle": "S5", "tags": ["snack"] },
+    { "name": "Cheese Burst Popcorn", "brand": "Act II", "size": "30g", "price": "₹12", "aisle": "S5", "tags": ["snack"] },
+    { "name": "Peri Peri Popcorn", "brand": "Popcorn & Co", "size": "30g", "price": "₹15", "aisle": "S5", "tags": ["snack"] },
+    { "name": "Local Masala Popcorn", "brand": "Local Produce", "size": "30g", "price": "₹8", "aisle": "S5", "tags": ["snack"] },
+    { "name": "Sweet Caramel Popcorn", "brand": "SnackUp", "size": "30g", "price": "₹15", "aisle": "S5", "tags": ["snack"] }
+  ],
+  "tea": [
+    { "name": "Premium Tea", "brand": "Tata Tea Gold", "size": "250g", "price": "₹90", "aisle": "B1", "tags": ["beverage"] },
+    { "name": "Leaf Tea", "brand": "Red Label", "size": "250g", "price": "₹85", "aisle": "B1", "tags": ["beverage"] },
+    { "name": "Green Tea Bags", "brand": "Lipton", "size": "100 bags", "price": "₹190", "aisle": "B1", "tags": ["beverage"] },
+    { "name": "Herbal Tea", "brand": "Organic India", "size": "100g", "price": "₹130", "aisle": "B1", "tags": ["beverage"] },
+    { "name": "Local Assam Tea", "brand": "Local Produce", "size": "250g", "price": "₹70", "aisle": "B1", "tags": ["beverage"] }
+  ],
+  "coffee": [
+    { "name": "Instant Coffee", "brand": "Nescafé", "size": "100g", "price": "₹150", "aisle": "B2", "tags": ["beverage"] },
+    { "name": "Filter Coffee", "brand": "Bru", "size": "200g", "price": "₹170", "aisle": "B2", "tags": ["beverage"] },
+    { "name": "South Indian Filter Coffee", "brand": "Leo Coffee", "size": "200g", "price": "₹160", "aisle": "B2", "tags": ["beverage"] },
+    { "name": "Local Roast Coffee", "brand": "Local Produce", "size": "200g", "price": "₹130", "aisle": "B2", "tags": ["beverage"] },
+    { "name": "Premium Coffee Blend", "brand": "Davidoff", "size": "100g", "price": "₹280", "aisle": "B2", "tags": ["beverage"] }
+  ],
+  "fruit juice": [
+    { "name": "Mango Juice", "brand": "Maaza", "size": "1L", "price": "₹65", "aisle": "B3", "tags": ["beverage"] },
+    { "name": "Orange Juice", "brand": "Tropicana", "size": "1L", "price": "₹90", "aisle": "B3", "tags": ["beverage"] },
+    { "name": "Mixed Fruit Juice", "brand": "Real", "size": "1L", "price": "₹95", "aisle": "B3", "tags": ["beverage"] },
+    { "name": "Guava Juice", "brand": "B-Natural", "size": "1L", "price": "₹85", "aisle": "B3", "tags": ["beverage"] },
+    { "name": "Local Sugarcane Juice", "brand": "Local Produce", "size": "1L", "price": "₹50", "aisle": "B3", "tags": ["beverage"] }
+  ],
+  "carbonated drinks": [
+    { "name": "Cola Drink", "brand": "Coca-Cola", "size": "750ml", "price": "₹40", "aisle": "B4", "tags": ["beverage"] },
+    { "name": "Lemon Drink", "brand": "Sprite", "size": "750ml", "price": "₹40", "aisle": "B4", "tags": ["beverage"] },
+    { "name": "Orange Fizz", "brand": "Fanta", "size": "750ml", "price": "₹40", "aisle": "B4", "tags": ["beverage"] },
+    { "name": "Jeera Masala Soda", "brand": "Bovonto", "size": "750ml", "price": "₹35", "aisle": "B4", "tags": ["beverage"] },
+    { "name": "Local Cola", "brand": "Local Produce", "size": "750ml", "price": "₹30", "aisle": "B4", "tags": ["beverage"] }
+  ],
+  "health drinks": [
+    { "name": "Bournvita", "brand": "Cadbury", "size": "500g", "price": "₹215", "aisle": "B5", "tags": ["beverage"] },
+    { "name": "Horlicks", "brand": "GSK", "size": "500g", "price": "₹220", "aisle": "B5", "tags": ["beverage"] },
+    { "name": "Complan", "brand": "Heinz", "size": "500g", "price": "₹230", "aisle": "B5", "tags": ["beverage"] },
+    { "name": "Boost", "brand": "Nestlé", "size": "500g", "price": "₹225", "aisle": "B5", "tags": ["beverage"] },
+    { "name": "Local Health Drink", "brand": "Local Produce", "size": "500g", "price": "₹180", "aisle": "B5", "tags": ["beverage"] }
+  ],
+  "pasta": [
+    { "name": "Penne Pasta", "brand": "Barilla", "size": "500g", "price": "₹120", "aisle": "I1", "tags": ["grain", "pasta ingredient"] },
+    { "name": "Fusilli Pasta", "brand": "Del Monte", "size": "500g", "price": "₹110", "aisle": "I1", "tags": ["grain", "pasta ingredient"] },
+    { "name": "Local Pasta", "brand": "Local Produce", "size": "500g", "price": "₹90", "aisle": "I1", "tags": ["grain", "pasta ingredient"] }
+  ],
+  "pizza base": [
+    { "name": "Thin Crust Base", "brand": "Modern", "size": "2 pcs", "price": "₹50", "aisle": "I2", "tags": ["bakery", "pizza ingredient"] },
+    { "name": "Whole Wheat Pizza Base", "brand": "Harvest Gold", "size": "2 pcs", "price": "₹60", "aisle": "I2", "tags": ["bakery", "pizza ingredient"] },
+    { "name": "Local Pizza Base", "brand": "Local Bakery", "size": "2 pcs", "price": "₹40", "aisle": "I2", "tags": ["bakery", "pizza ingredient"] }
+  ],
+  "pizza sauce": [
+    { "name": "Classic Pizza Sauce", "brand": "FunFoods", "size": "300g", "price": "₹85", "aisle": "I3", "tags": ["condiment", "pizza ingredient"] },
+    { "name": "Spicy Pizza Sauce", "brand": "Weikfield", "size": "300g", "price": "₹90", "aisle": "I3", "tags": ["condiment", "pizza ingredient"] },
+    { "name": "Local Pizza Sauce", "brand": "Local Produce", "size": "300g", "price": "₹65", "aisle": "I3", "tags": ["condiment", "pizza ingredient"] }
+  ],
+  "pasta sauce": [
+    { "name": "Arrabbiata Pasta Sauce", "brand": "Del Monte", "size": "300g", "price": "₹95", "aisle": "I4", "tags": ["condiment", "pasta ingredient"] },
+    { "name": "Tomato Basil Sauce", "brand": "FunFoods", "size": "300g", "price": "₹90", "aisle": "I4", "tags": ["condiment", "pasta ingredient"] },
+    { "name": "Local Pasta Sauce", "brand": "Local Produce", "size": "300g", "price": "₹70", "aisle": "I4", "tags": ["condiment", "pasta ingredient"] }
+  ],
+  "olives": [
+    { "name": "Sliced Black Olives", "brand": "Figaro", "size": "230g", "price": "₹120", "aisle": "I5", "tags": ["condiment", "pizza ingredient"] },
+    { "name": "Green Pitted Olives", "brand": "Del Monte", "size": "240g", "price": "₹130", "aisle": "I5", "tags": ["condiment", "pizza ingredient"] },
+    { "name": "Local Olives", "brand": "Local Produce", "size": "200g", "price": "₹90", "aisle": "I5", "tags": ["condiment", "pizza ingredient"] }
+  ],
+  "parmesan cheese": [
+    { "name": "Grated Parmesan", "brand": "Urban Platter", "size": "100g", "price": "₹180", "aisle": "D4", "tags": ["dairy", "pasta ingredient"] },
+    { "name": "Parmesan Cheese Block", "brand": "Amul", "size": "200g", "price": "₹290", "aisle": "D4", "tags": ["dairy", "pasta ingredient"] },
+    { "name": "Local Parmesan", "brand": "Local Dairy", "size": "100g", "price": "₹140", "aisle": "D4", "tags": ["dairy", "pasta ingredient"] }
+  ],
+  "basil leaves": [
+    { "name": "Dried Basil Leaves", "brand": "Keya", "size": "25g", "price": "₹60", "aisle": "S21", "tags": ["seasoning", "pizza ingredient", "pasta ingredient"] },
+    { "name": "Italian Basil", "brand": "Urban Platter", "size": "25g", "price": "₹65", "aisle": "S21", "tags": ["seasoning", "pizza ingredient", "pasta ingredient"] },
+    { "name": "Local Basil", "brand": "Local Produce", "size": "25g", "price": "₹40", "aisle": "S21", "tags": ["seasoning", "pizza ingredient", "pasta ingredient"] }
+  ],
+  "mushroom": [
+    { "name": "Button Mushrooms", "brand": "Fresh Harvest", "size": "200g", "price": "₹60", "aisle": "F8", "tags": ["vegetable", "pizza ingredient"] },
+    { "name": "Organic Mushrooms", "brand": "Nature Farm", "size": "200g", "price": "₹75", "aisle": "F8", "tags": ["vegetable", "pizza ingredient"] },
+    { "name": "Local Mushrooms", "brand": "Local Produce", "size": "200g", "price": "₹50", "aisle": "F8", "tags": ["vegetable", "pizza ingredient"] }
+  ],
+  "bell pepper": [
+    { "name": "Green Capsicum", "brand": "Fresh Harvest", "size": "250g", "price": "₹30", "aisle": "F9", "tags": ["vegetable", "pizza ingredient"] },
+    { "name": "Red Bell Pepper", "brand": "Green Basket", "size": "250g", "price": "₹40", "aisle": "F9", "tags": ["vegetable", "pizza ingredient"] },
+    { "name": "Local Bell Pepper", "brand": "Local Produce", "size": "250g", "price": "₹25", "aisle": "F9", "tags": ["vegetable", "pizza ingredient"] }
+  ],
+  "extra virgin olive oil": [
+    { "name": "Classic Olive Oil", "brand": "Figaro", "size": "500ml", "price": "₹320", "aisle": "O11", "tags": ["oil", "pasta ingredient", "pizza ingredient"] },
+    { "name": "Cold Pressed Olive Oil", "brand": "Borges", "size": "500ml", "price": "₹330", "aisle": "O11", "tags": ["oil", "pasta ingredient", "pizza ingredient"] },
+    { "name": "Local Olive Oil", "brand": "Local Produce", "size": "500ml", "price": "₹280", "aisle": "O11", "tags": ["oil", "pasta ingredient", "pizza ingredient"] }
+  ],
+  "besan": [
+    { "name": "Gram Flour", "brand": "Aashirvaad", "size": "500g", "price": "₹55", "aisle": "G3", "tags": ["flour", "staple"] },
+    { "name": "Organic Besan", "brand": "24 Mantra", "size": "500g", "price": "₹60", "aisle": "G3", "tags": ["flour", "staple"] },
+    { "name": "Premium Besan", "brand": "Tata Sampann", "size": "500g", "price": "₹58", "aisle": "G3", "tags": ["flour", "staple"] },
+    { "name": "Local Besan", "brand": "Local Produce", "size": "500g", "price": "₹45", "aisle": "G3", "tags": ["flour", "staple"] }
+  ],
+  "maida": [
+    { "name": "Refined Flour", "brand": "Aashirvaad", "size": "500g", "price": "₹35", "aisle": "G4", "tags": ["flour", "staple"] },
+    { "name": "Maida", "brand": "Pillsbury", "size": "500g", "price": "₹38", "aisle": "G4", "tags": ["flour", "staple"] },
+    { "name": "Fine Maida", "brand": "Organic Tattva", "size": "500g", "price": "₹42", "aisle": "G4", "tags": ["flour", "staple"] },
+    { "name": "Local Maida", "brand": "Local Produce", "size": "500g", "price": "₹28", "aisle": "G4", "tags": ["flour", "staple"] }
+  ],
+  "sabudana": [
+    { "name": "Tapioca Pearls", "brand": "Rajdhani", "size": "500g", "price": "₹55", "aisle": "G5", "tags": ["grain", "fasting"] },
+    { "name": "Sago Medium", "brand": "24 Mantra", "size": "500g", "price": "₹60", "aisle": "G5", "tags": ["grain", "fasting"] },
+    { "name": "Sabudana Small", "brand": "Indiagate", "size": "500g", "price": "₹58", "aisle": "G5", "tags": ["grain", "fasting"] },
+    { "name": "Local Sabudana", "brand": "Local Produce", "size": "500g", "price": "₹45", "aisle": "G5", "tags": ["grain", "fasting"] }
+  ],
+  "rock salt": [
+    { "name": "Sendha Namak", "brand": "Catch", "size": "100g", "price": "₹20", "aisle": "S22", "tags": ["salt", "fasting"] },
+    { "name": "Rock Salt", "brand": "Tata Sampann", "size": "100g", "price": "₹25", "aisle": "S22", "tags": ["salt", "fasting"] },
+    { "name": "Organic Rock Salt", "brand": "24 Mantra", "size": "100g", "price": "₹28", "aisle": "S22", "tags": ["salt", "fasting"] },
+    { "name": "Local Rock Salt", "brand": "Local Produce", "size": "100g", "price": "₹15", "aisle": "S22", "tags": ["salt", "fasting"] }
+  ],
+  "jaggery powder": [
+    { "name": "Organic Jaggery Powder", "brand": "24 Mantra", "size": "500g", "price": "₹55", "aisle": "G6", "tags": ["sweetener", "staple"] },
+    { "name": "Brown Jaggery Powder", "brand": "Tata Sampann", "size": "500g", "price": "₹60", "aisle": "G6", "tags": ["sweetener", "staple"] },
+    { "name": "Golden Gur Powder", "brand": "Patanjali", "size": "500g", "price": "₹58", "aisle": "G6", "tags": ["sweetener", "staple"] },
+    { "name": "Local Jaggery", "brand": "Local Produce", "size": "500g", "price": "₹45", "aisle": "G6", "tags": ["sweetener", "staple"] }
+  ],
+  "condensed milk": [
+    { "name": "Milkmaid", "brand": "Nestlé", "size": "400g", "price": "₹135", "aisle": "C10", "tags": ["dairy", "dessert"] },
+    { "name": "Mithai Mate", "brand": "Amul", "size": "400g", "price": "₹130", "aisle": "C10", "tags": ["dairy", "dessert"] },
+    { "name": "Sweetened Milk", "brand": "Heritage", "size": "400g", "price": "₹120", "aisle": "C10", "tags": ["dairy", "dessert"] },
+    { "name": "Local Condensed Milk", "brand": "Local Dairy", "size": "400g", "price": "₹110", "aisle": "C10", "tags": ["dairy", "dessert"] }
+  ],
+  "sweet corn": [
+    { "name": "Canned Sweet Corn", "brand": "Del Monte", "size": "400g", "price": "₹65", "aisle": "C11", "tags": ["vegetable", "canned"] },
+    { "name": "Whole Kernel Corn", "brand": "Golden Crown", "size": "400g", "price": "₹68", "aisle": "C11", "tags": ["vegetable", "canned"] },
+    { "name": "Organic Sweet Corn", "brand": "Urban Platter", "size": "400g", "price": "₹75", "aisle": "C11", "tags": ["vegetable", "canned"] },
+    { "name": "Local Sweet Corn", "brand": "Local Produce", "size": "400g", "price": "₹55", "aisle": "C11", "tags": ["vegetable", "canned"] }
+  ],
+  "instant dosa mix": [
+    { "name": "Dosa Mix", "brand": "MTR", "size": "500g", "price": "₹70", "aisle": "R1", "tags": ["instant", "breakfast"] },
+    { "name": "Instant Dosa Batter", "brand": "iD Fresh", "size": "1kg", "price": "₹80", "aisle": "R1", "tags": ["instant", "breakfast"] },
+    { "name": "Ready Mix Dosa", "brand": "Eastern", "size": "500g", "price": "₹68", "aisle": "R1", "tags": ["instant", "breakfast"] },
+    { "name": "Local Dosa Mix", "brand": "Local Produce", "size": "500g", "price": "₹55", "aisle": "R1", "tags": ["instant", "breakfast"] }
+  ],
+  "soan papdi": [
+    { "name": "Soan Papdi", "brand": "Haldiram's", "size": "500g", "price": "₹120", "aisle": "SW1", "tags": ["sweet", "indian sweet"] },
+    { "name": "Soan Papdi", "brand": "Bikaji", "size": "500g", "price": "₹115", "aisle": "SW1", "tags": ["sweet", "indian sweet"] },
+    { "name": "Premium Soan Papdi", "brand": "MTR", "size": "500g", "price": "₹130", "aisle": "SW1", "tags": ["sweet", "indian sweet"] },
+    { "name": "Local Soan Papdi", "brand": "Local Sweets", "size": "500g", "price": "₹100", "aisle": "SW1", "tags": ["sweet", "indian sweet"] }
+  ],
+  "gulab jamun mix": [
+    { "name": "Gulab Jamun Mix", "brand": "Gits", "size": "200g", "price": "₹90", "aisle": "SW2", "tags": ["sweet", "instant sweet"] },
+    { "name": "Gulab Jamun Ready Mix", "brand": "MTR", "size": "200g", "price": "₹85", "aisle": "SW2", "tags": ["sweet", "instant sweet"] },
+    { "name": "Delight Mix", "brand": "Haldiram's", "size": "200g", "price": "₹95", "aisle": "SW2", "tags": ["sweet", "instant sweet"] },
+    { "name": "Local Gulab Jamun Mix", "brand": "Local Produce", "size": "200g", "price": "₹70", "aisle": "SW2", "tags": ["sweet", "instant sweet"] }
+  ],
+  "rasgulla": [
+    { "name": "Canned Rasgulla", "brand": "Haldiram's", "size": "1kg", "price": "₹130", "aisle": "SW3", "tags": ["sweet", "indian sweet"] },
+    { "name": "Rasgulla Tin", "brand": "Bikaji", "size": "1kg", "price": "₹125", "aisle": "SW3", "tags": ["sweet", "indian sweet"] },
+    { "name": "Soft Rasgulla", "brand": "MTR", "size": "1kg", "price": "₹135", "aisle": "SW3", "tags": ["sweet", "indian sweet"] },
+    { "name": "Local Rasgulla", "brand": "Local Sweets", "size": "1kg", "price": "₹110", "aisle": "SW3", "tags": ["sweet", "indian sweet"] }
+  ],
+  "soap": [
+    { "name": "Total Soap", "brand": "Lifebuoy", "size": "125g", "price": "₹32", "aisle": "H1", "tags": ["toiletry", "personal care"] },
+    { "name": "Moisture Soap", "brand": "Dove", "size": "100g", "price": "₹55", "aisle": "H1", "tags": ["toiletry", "personal care"] },
+    { "name": "Natural Soap", "brand": "Medimix", "size": "125g", "price": "₹40", "aisle": "H1", "tags": ["toiletry", "personal care"] },
+    { "name": "Local Herbal Soap", "brand": "Local Brand", "size": "125g", "price": "₹25", "aisle": "H1", "tags": ["toiletry", "personal care"] }
+  ],
+  "toothpaste": [
+    { "name": "Toothpaste", "brand": "Colgate", "size": "100g", "price": "₹55", "aisle": "H2", "tags": ["toiletry", "oral care"] },
+    { "name": "Ayurvedic Paste", "brand": "Patanjali Dant Kanti", "size": "100g", "price": "₹50", "aisle": "H2", "tags": ["toiletry", "oral care"] },
+    { "name": "Herbal Toothpaste", "brand": "Himalaya", "size": "100g", "price": "₹52", "aisle": "H2", "tags": ["toiletry", "oral care"] },
+    { "name": "Local Toothpaste", "brand": "Local Brand", "size": "100g", "price": "₹35", "aisle": "H2", "tags": ["toiletry", "oral care"] }
+  ],
+  "shampoo": [
+    { "name": "Anti-Dandruff Shampoo", "brand": "Head & Shoulders", "size": "180ml", "price": "₹120", "aisle": "H3", "tags": ["toiletry", "personal care"] },
+    { "name": "Silky Hair Shampoo", "brand": "Pantene", "size": "180ml", "price": "₹115", "aisle": "H3", "tags": ["toiletry", "personal care"] },
+    { "name": "Ayurvedic Shampoo", "brand": "Patanjali", "size": "180ml", "price": "₹100", "aisle": "H3", "tags": ["toiletry", "personal care"] },
+    { "name": "Local Shampoo", "brand": "Local Brand", "size": "180ml", "price": "₹80", "aisle": "H3", "tags": ["toiletry", "personal care"] }
+  ],
+  "detergent powder": [
+    { "name": "Detergent Powder", "brand": "Surf Excel", "size": "1kg", "price": "₹135", "aisle": "H4", "tags": ["household", "cleaning"] },
+    { "name": "Washing Powder", "brand": "Rin", "size": "1kg", "price": "₹115", "aisle": "H4", "tags": ["household", "cleaning"] },
+    { "name": "Jalebi Wash", "brand": "Wheel", "size": "1kg", "price": "₹95", "aisle": "H4", "tags": ["household", "cleaning"] },
+    { "name": "Local Detergent", "brand": "Local Brand", "size": "1kg", "price": "₹80", "aisle": "H4", "tags": ["household", "cleaning"] }
+  ],
+  "floor cleaner": [
+    { "name": "Disinfectant Cleaner", "brand": "Lizol", "size": "500ml", "price": "₹95", "aisle": "H5", "tags": ["household", "cleaning"] },
+    { "name": "White Phenyl", "brand": "Domex", "size": "500ml", "price": "₹90", "aisle": "H5", "tags": ["household", "cleaning"] },
+    { "name": "Natural Floor Cleaner", "brand": "Herbal Strategi", "size": "500ml", "price": "₹110", "aisle": "H5", "tags": ["household", "cleaning"] },
+    { "name": "Local Phenyl", "brand": "Local Brand", "size": "500ml", "price": "₹60", "aisle": "H5", "tags": ["household", "cleaning"] }
+  ],
+  "drinking water": [
+    { "name": "Packaged Drinking Water", "brand": "Bisleri", "size": "500ml", "price": "₹10", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Packaged Drinking Water", "brand": "Bisleri", "size": "1L", "price": "₹20", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Mineral Water", "brand": "Kinley", "size": "2L", "price": "₹30", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Spring Water", "brand": "Himalayan", "size": "1L", "price": "₹25", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Premium Mineral Water", "brand": "Aquafina", "size": "500ml", "price": "₹12", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Drinking Water Jar", "brand": "Bisleri", "size": "5L", "price": "₹60", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Local Supply Jar", "brand": "Local Supply", "size": "10L", "price": "₹70", "aisle": "B6", "tags": ["beverage", "water"] },
+    { "name": "Drinking Water Can", "brand": "Local Supply", "size": "20L", "price": "₹120", "aisle": "B6", "tags": ["beverage", "water"] }
+  ]
+}
+
